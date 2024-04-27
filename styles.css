@@ -13,6 +13,8 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    min-height: calc(100vh - 768px - 30px);
+
 }
 #background{
     background-image: url(assets/pexels-photo-1120464.webp);
@@ -71,6 +73,7 @@ div{
     padding: 8px;
     color: rgb(213, 173, 250);
     background-color: rgba(0, 0, 0, 0.308);
+    min-height: calc(100vh - 768px - 30px);
 }
 div #wedding-cakes{
     display: inline-block;
@@ -141,4 +144,12 @@ div #history{
     
     border: 15px;
     
+}
+#footer{
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    z-index: +1;
 }
