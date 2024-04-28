@@ -1,22 +1,22 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'poppins',sans-serif;
+    font-family: 'poppins', sans-serif;
 }
-body{
+
+body {
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     min-height: calc(100vh - 768px - 30px);
-
 }
-#background{
+
+#background {
     background-image: url(assets/pexels-photo-1120464.webp);
     height: 100vh;
     width: 100%;
@@ -27,7 +27,8 @@ body{
     top: 0;
     z-index: -1;
 }
-.header{
+
+.header {
     position: fixed;
     top: 0;
     left: 0;
@@ -39,12 +40,14 @@ body{
     align-items: center;
     z-index: 100;
 }
-.logo{
+
+.logo {
     font-size: 20px;
     color: #fff;
     text-decoration: none;
     font-weight: 700;
 }
+
 .navbar a {
     position: relative;
     font-size: 18px;
@@ -53,7 +56,8 @@ body{
     text-decoration: none;
     margin-left: 40px;
 }
-.navbar a::before{
+
+.navbar a::before {
     content: '';
     position: absolute;
     top: 100%;
@@ -63,57 +67,78 @@ body{
     background: #fff;
     transition: .3s;
 }
-.navbar a:hover:before{
+
+.navbar a:hover:before {
     width: 100%;
 }
+@media screen and (max-width:768px) {
+    .navbar{
+        position: absolute;
+        background-color: transparent;
+        width: 100%;
+        left: 0;
+        padding: 0 1rem;
+        box-shadow: 0 2px 2px rgb(213, 173, 250);
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    #navbar-toggle:checked~.navbar{
+        display: block;
+        top: 100%;
+    }
+    #navbar-toggle{
+        display: none;
+    }
+    #navbar-toggle-label{
+        font-size: 2rem;
+    }
+}
 
-div{
+div {
     width: 100%;
     display: flex;
     padding: 8px;
     color: rgb(213, 173, 250);
     background-color: rgba(0, 0, 0, 0.308);
-    min-height: calc(100vh - 768px - 30px);
 }
-div #wedding-cakes{
+
+div #wedding-cakes {
     display: inline-block;
-    
     border: 15px;
-    
 }
-div #birthday-cakes{
+
+div #birthday-cakes {
     display: inline-block;
-    
     border: 15px;
-    
 }
-div #range-cakes{
+
+div #range-cakes {
     display: inline-block;
-    
     border: 15px;
-     
 }
-div #sweets{
-    position:relative;
+
+div #sweets {
+    position: relative;
     display: inline-block;
-    
     border: 15px;
-    
 }
-div #newsletter{
-    position:relative;
+
+div #newsletter {
+    position: relative;
     display: inline-block;
-    
     border: 15px;
-    
 }
+
 /* Gallery page */
 
-.image-grid{
+.image-grid {
     border: 15px;
-    --gap:16px;
-    --num-cols:3;
-    --row-height:300px;
+    --gap: 16px;
+    --num-cols: 3;
+    --row-height: 300px;
     box-sizing: border-box;
     padding: var(--gap);
     display: grid;
@@ -121,39 +146,52 @@ div #newsletter{
     grid-auto-rows: var(--row-height);
     gap: var(--gap);
 }
-.image-grid > img {
+
+.image-grid>img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-#gallery{
+
+#gallery {
     position: static;
     margin-top: 30px;
     padding-top: 100px;
 }
-@media  screen and (max-width:760px) {
-    .image-grid{
-        --num-cols:2;
-        --row-height:200px;
+
+@media screen and (max-width:760px) {
+    .image-grid {
+        --num-cols: 2;
+        --row-height: 200px;
     }
-    
+
 }
-div #history{
-    position:relative;
+
+div #history {
+    position: relative;
     display: inline-block;
-    
     border: 15px;
-    
 }
-#footer{
+
+#footer {
     width: 100%;
     text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-    z-index: 1;
-    position: fixed;
+    padding: 15px 0px;
     bottom: 0;
-    background-color:rgb(250, 246, 246);
+    background-color: transparent;
+    position: fixed;
+    justify-content: space-evenly;
+    display: flex;
+    list-style-type: none;
+}
+#footer i{
+    font-size: 160%;
+}
+#footer li{
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    position: auto;
+    align-items: baseline;
 }
