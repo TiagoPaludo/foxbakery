@@ -146,10 +146,17 @@ div #history{
     
 }
 #footer{
+    width: 100%;
     text-align: center;
     padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    z-index: +1;
+    z-index: 1;
+    position: fixed;
+    bottom: 0;
+    background-color:rgb(250, 246, 246);
+}
+#fa-logo{
+    color: white;
 }
