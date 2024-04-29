@@ -186,6 +186,7 @@ div #history {
 }
 #footer i{
     font-size: 160%;
+    padding: 18px;
 }
 #footer li{
     list-style-type: none;
@@ -194,4 +195,6 @@ div #history {
     justify-content: space-evenly;
     position: auto;
     align-items: baseline;
+    display: inline;
+    
 }
