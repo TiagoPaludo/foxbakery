@@ -135,19 +135,21 @@ div #newsletter {
 /* Gallery page */
 
 .image-grid {
-    border: 15px;
-    --gap: 16px;
+    border: 8px;
+    --gap: 8px;
     --num-cols: 3;
-    --row-height: 300px;
+    --row-height: 250px;
     box-sizing: border-box;
     padding: var(--gap);
     display: grid;
     grid-template-columns: repeat(var(--num-cols), 1fr);
     grid-auto-rows: var(--row-height);
     gap: var(--gap);
+    max-height: 80%;
+    padding-bottom: 30px;
 }
 
-.image-grid>img {
+.image-grid> img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -156,7 +158,7 @@ div #newsletter {
 #gallery {
     position: static;
     margin-top: 30px;
-    padding-top: 100px;
+    padding-top: 30px;
 }
 
 @media screen and (max-width:760px) {
