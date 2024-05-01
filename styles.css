@@ -202,28 +202,17 @@ div #history {
     border: 15px;
 }
 
+/* Footer */
 #footer {
-    width: 100%;
     text-align: center;
-    padding: 15px 0px;
-    bottom: 0;
-    background-color: transparent;
-    position: fixed;
-    justify-content: space-evenly;
+    padding: 20px 0;
     display: flex;
+    justify-content: space-evenly;
     list-style-type: none;
 }
-#footer i{
+
+#footer i {
     font-size: 160%;
-    padding: 18px;
-}
-#footer li{
-    list-style-type: none;
-    display: flex;
-    text-align: center;
-    justify-content: space-evenly;
-    position: auto;
-    align-items: baseline;
-    display: inline;
-    
+    padding: 5%;
+    color: #3a3a3a;
 }
