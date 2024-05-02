@@ -75,31 +75,62 @@ body {
 .navbar a:hover:before {
     width: 100%;
 }
+section{
+    display: flex;
+}
+div{
+    display: flex;
+    background: #8801883a;
+}
+
 div #wedding-cakes {
     display: inline-block;
     border: 15px;
+    background:#8801883a ;
+    padding: 8px;
+    margin: 10px;
 }
 
 div #birthday-cakes {
     display: inline-block;
     border: 15px;
+    background:#8801883a ;
+    padding: 8px;
+    margin: 10px;
 }
 
 div #range-cakes {
     display: inline-block;
     border: 15px;
+    background:#8801883a ;
+    padding: 8px;
+    margin: 10px;
 }
 
 div #sweets {
     position: relative;
     display: inline-block;
     border: 15px;
+    background:#8801883a ;
+    padding: 8px;
+    margin: 10px;
 }
 
 div #newsletter {
     position: relative;
     display: inline-block;
     border: 15px;
+    background:#8801883a ;
+    padding: 8px;
+    margin: 10px;
+}
+div #history{
+    position: relative;
+    display: inline-block;
+    border: 15px;
+    background:#8801883a ;
+    padding: 8px;
+    margin: 10px;
 }
 
 /* Gallery page */
@@ -131,6 +162,18 @@ div #newsletter {
     padding-top: 30px;
 }
 @media screen and (max-width:425px) {
+    #background {
+        background-image: url(assets/pexels-photo-1120464.webp);
+        height: 150vh;
+        width: 130%;
+        background-size: cover;
+        border-image-repeat: none;
+        background-position: center center;
+        position: fixed;
+        top: 0;
+        z-index: -1;
+    }
+    
     header {
         position: fixed;
         top: 0;
@@ -155,7 +198,7 @@ div #newsletter {
         margin-bottom: 1em;
         background-color: black;
     }
-    /* Navbar styles with dropdown toggle  está exatamente com as definições do video r club.*/
+    /* Navbar styles with dropdown toggle*/
 nav {
     position: absolute;
     background-color: transparent;
@@ -185,14 +228,31 @@ nav {
 .box-label {
     font-size: 2rem;
 }
+.image-grid {
+    --num-cols: 2;
+    --row-height: 170px;
+}
+/* Footer */
+#footer {
+    text-align: center;
+    padding: 2px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    position: fixed;
+    bottom: 0;
+}
 
+#footer li {
+    font-size: 160%;
+    padding: 0.5px;
+    color: rgb(213, 173, 250);
+    margin: 0 2px;
+}
 }
 
 @media screen and (min-width:768px) {
-    .image-grid {
-        --num-cols: 2;
-        --row-height: 200px;
-    }
+    
     #box {
         display: none;
     }
