@@ -14,6 +14,7 @@ body {
     align-items: center;
     height: 100vh;
     min-height: calc(100vh - 768px - 30px);
+    flex-direction: column;
 }
 
 #background {
@@ -33,12 +34,13 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 100px;
+    padding: 0 1rem;
     background: transparent;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
     z-index: 100;
+    box-shadow: 0 2px 2px;
 }
 
 .logo {
@@ -55,6 +57,8 @@ body {
     font-weight: 500;
     text-decoration: none;
     margin-left: 40px;
+    list-style-type: none;
+    margin-bottom: 1em;
 }
 
 .navbar a::before {
@@ -71,67 +75,6 @@ body {
 .navbar a:hover:before {
     width: 100%;
 }
-
-@media screen and (max-width:768px) {
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: 'poppins', sans-serif;
-    }
-    body {
-        margin: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        min-height: calc(100vh - 768px - 30px);
-    }
-    #background {
-        background-image: url(assets/pexels-photo-1120464.webp);
-        height: 100vh;
-        width: 100%;
-        background-size: cover;
-        border-image-repeat:none;
-        background-position: center center;
-        position: fixed;
-        top: 0;
-        z-index: -1;
-    }
-
-    .navbar{
-        position: absolute;
-        background-color: transparent;
-        width: 100%;
-        left: 0;
-        padding: 0 1rem;
-        box-shadow: 0 2px 2px rgb(213, 173, 250);
-    }
-    .header{
-        display: flex;
-        justify-content: space-between;
-        align-items: baseline;
-    }
-    #navbar-toggle:checked~.navbar{
-        display: block;
-        top: 100%;
-    }
-    #navbar-toggle{
-        display: none;
-    }
-    #navbar-toggle-label{
-        font-size: 4rem;
-    }
-}
-
-div {
-    width: 100%;
-    display: flex;
-    padding: 8px;
-    color: rgb(213, 173, 250);
-    background-color: rgba(0, 0, 0, 0.308);
-}
-
 div #wedding-cakes {
     display: inline-block;
     border: 15px;
@@ -187,13 +130,122 @@ div #newsletter {
     margin-top: 30px;
     padding-top: 30px;
 }
+@media screen and (max-width:425px) {
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 0 1rem;
+        background: transparent;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        z-index: 100;
+        box-shadow: 0 2px 2px;
+    }
+    .navbar {
+        font-size: 110%;
+        letter-spacing: 4px;
+        list-style-type: none;
+        background-color: transparent;
+    }
+    
+    .nav > li {
+        margin-bottom: 1em;
+        background-color: black;
+    }
+    /* Navbar styles with dropdown toggle  está exatamente com as definições do video r club.*/
+nav {
+    position: absolute;
+    background-color: transparent;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+}
+.logo {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
 
-@media screen and (max-width:760px) {
+/*Nav toggle */
+#box:checked~nav {
+    display: block;
+}
+
+#box {
+    display: none;
+}
+
+.box-label {
+    font-size: 2rem;
+}
+
+}
+
+@media screen and (min-width:768px) {
     .image-grid {
         --num-cols: 2;
         --row-height: 200px;
     }
-
+    #box {
+        display: none;
+    }
+    
+    .box-label {
+        display: none;
+    }
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 0 1rem;
+        background: transparent;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        z-index: 100;
+        box-shadow: 0 2px 2px;
+    }
+    
+    .logo {
+        font-size: 20px;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 700;
+    }
+    
+    .navbar a {
+        position: relative;
+        font-size: 18px;
+        color: #fff;
+        font-weight: 500;
+        text-decoration: none;
+        margin-left: 40px;
+        list-style-type: none;
+        margin-bottom: 1em;
+    }
+    
+    .navbar a::before {
+        content: '';
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: #fff;
+        transition: .3s;
+    }
+    
+    .navbar a:hover:before {
+        width: 100%;
+    }
 }
 
 div #history {
@@ -209,10 +261,13 @@ div #history {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    position: fixed;
+    bottom: 0;
 }
 
-#footer i {
+#footer li {
     font-size: 160%;
     padding: 5%;
-    color: #3a3a3a;
+    color: rgb(213, 173, 250);
+    margin: 0 20px;
 }
