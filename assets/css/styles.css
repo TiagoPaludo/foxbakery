@@ -193,7 +193,11 @@ div #history{
         list-style-type: none;
         background-color: transparent;
     }
-    
+    section{
+        display: flex;
+        min-width: 70%;
+        align-items: center;
+    }
     .nav > li {
         margin-bottom: 1em;
         background-color: black;
