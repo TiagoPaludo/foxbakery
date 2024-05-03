@@ -18,7 +18,7 @@ body {
 }
 
 #background {
-    background-image: url(assets/photos/cupcakes.webp)
+    background-image: url(assets/photos/cupcakes.webp);
     height: 100vh;
     width: 100%;
     background-size: cover;
@@ -80,7 +80,7 @@ section{
 }
 div{
     display: flex;
-    background: #8801883a;
+    background:#8801883a;
 }
 
 div #wedding-cakes {
@@ -163,7 +163,7 @@ div #history{
 }
 @media screen and (max-width:425px) {
     #background {
-        background-image: url(assets/pexels-photo-1120464.webp);
+        background-image: url(assets/photos/cupcakes.webp);
         height: 150vh;
         width: 130%;
         background-size: cover;
