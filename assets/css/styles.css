@@ -18,7 +18,7 @@ body {
 }
 
 #background {
-    background-image:url(assets/images/cupcakes.webp);
+    background-image:url(../images/cupcakes.webp);
     height: 100vh;
     width: 100%;
     background-size: cover;
