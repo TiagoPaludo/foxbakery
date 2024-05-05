@@ -219,6 +219,10 @@ nav {
     text-decoration: none;
     font-weight: 700;
 }
+div .cakes{
+    min-width: 320px;
+    flex-direction: column;
+}
 
 /*Nav toggle */
 #box:checked~nav {
