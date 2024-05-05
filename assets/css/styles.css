@@ -121,7 +121,7 @@ div #newsletter {
     display: inline-block;
     border: 15px;
     background:#8801883a ;
-    padding: 8px;
+    padding: 10px;
     margin: 10px;
 }
 div #history{
@@ -222,6 +222,11 @@ nav {
 div .cakes{
     min-width: 320px;
     flex-direction: column;
+}
+div .newsletter{
+    padding: 10px 53.51px;
+    max-width: 425px;
+    border-bottom: 107px;
 }
 
 /*Nav toggle */
