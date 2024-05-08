@@ -33,7 +33,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 58%;
     padding: 0 1rem;
     background: transparent;
     display: flex;
@@ -237,7 +237,7 @@ form > input{
         font-size: 20px;
     }
     
-    header {
+    /*header {
         position: fixed;
         top: 0;
         left: 0;
@@ -249,13 +249,14 @@ form > input{
         align-items: baseline;
         z-index: 100;
         box-shadow: 0 2px 2px;
-    }
-    .navbar {
+    }*/
+    /*.navbar {
         font-size: 110%;
         letter-spacing: 4px;
         list-style-type: none;
         background-color: transparent;
-    }
+        width: 320px;
+    }*/
     section{
         display: flex;
         min-width: 70%;
@@ -269,7 +270,7 @@ form > input{
 nav {
     position: absolute;
     background-color: transparent;
-    width: 100%;
+    width: 80%;
     left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
