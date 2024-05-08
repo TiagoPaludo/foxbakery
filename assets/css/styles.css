@@ -144,6 +144,8 @@ div #history{
     background:#8801883a ;
     padding: 8px;
     margin: 10px;
+    width: 700px;
+    font-size: 20px;
 }
 div.newsletter-signup{
     width: 700px;
@@ -207,10 +209,32 @@ form > input{
         top: 0;
         z-index: -1;
     }
+    /*newsletter that apears on index.html*/
     div.newsletter{
         width: 508px;
         height: 150PX;
         padding-left: 95px;
+    }
+    /* newsletter for newsletter.index*/
+    div.newsletter-signup{
+        width: 700px;
+        height: 340px;
+        flex-direction: column;
+        padding: 20px;
+    }
+    div#newsletter-signup{
+        width: 660px;
+        height: 300px;
+        padding: 20px;
+    }
+    form{
+        font-size: 30px;
+    }
+    form > input{
+        text-align: center;
+        border-radius: 8px 4px;
+        padding: 7px;
+        font-size: 20px;
     }
     
     header {
