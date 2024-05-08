@@ -78,9 +78,12 @@ body {
 section{
     display: flex;
 }
-div .cakes{
-    min-width: 320px;
+section> div.cakes{
+    width: 605px;
     flex-direction: column;
+}
+div.sweets{
+    width: 605px;
 }
 div{
     display: flex;
@@ -118,6 +121,7 @@ div #sweets {
     background:#8801883a ;
     padding: 8px;
     margin: 10px;
+    width: 600px;
 }
 
 div #newsletter {
@@ -133,7 +137,7 @@ form > input{
     border-radius: 8px 4px;
 }
 div.newsletter{
-    width: 508px;
+    width: 605px;
     height: 150PX;
     
     
