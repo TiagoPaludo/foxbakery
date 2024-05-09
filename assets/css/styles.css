@@ -211,7 +211,7 @@ form > input{
     }
     /*newsletter that apears on index.html*/
     div.newsletter{
-        width: 508px;
+        width: 605px;
         height: 150PX;
         padding-left: 95px;
     }
@@ -259,7 +259,7 @@ form > input{
     }*/
     section{
         display: flex;
-        min-width: 70%;
+        max-width: 320%;
         align-items: center;
     }
     .nav > li {
