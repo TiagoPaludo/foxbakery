@@ -213,7 +213,6 @@ form > input{
     div.newsletter{
         width: 605px;
         height: 150PX;
-        padding-left: 95px;
     }
     /* newsletter for newsletter.index*/
     div.newsletter-signup{
@@ -226,6 +225,39 @@ form > input{
         width: 660px;
         height: 300px;
         padding: 20px;
+    }
+    section > div{
+        max-height: 290px;
+    }
+    div.cakes{
+        min-width: 280px;
+        max-width: 315px;
+        margin: 5px;
+    }
+    div.sweets{
+        min-width: 280px;
+        max-width: 315px;
+        margin: 5px;
+    }
+    div.newsletter{
+        min-width: 280px;
+        max-width: 315px;
+        margin: 5px;
+    }
+    div #wedding-cakes{
+        display: inline-block;
+        margin: 5px;
+        padding: 5px;
+    }
+    div #birthday-cakes{
+        display: inline-block;
+        margin: 5px;
+        padding: 5px;
+    }
+    div #range-cakes{
+        display: inline-block;
+        margin: 5px;
+        padding: 5px;
     }
     form{
         font-size: 30px;
@@ -258,9 +290,8 @@ form > input{
         width: 320px;
     }*/
     section{
-        display: flex;
-        max-width: 320%;
-        align-items: center;
+        min-width: 320px;
+        max-width: 320px;
     }
     .nav > li {
         margin-bottom: 1em;
