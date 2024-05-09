@@ -204,6 +204,9 @@ form > input{
     margin-top: 30px;
     padding-top: 30px;
 }
+#footer i{
+    color: rgb(7, 3, 7);
+}
 @media screen and (max-width:425px) {
     #background {
         background-image: url(assets/photos/cupcakes.webp);
@@ -441,6 +444,6 @@ div #history {
 #footer li {
     font-size: 160%;
     padding: 1%;
-    color: rgb(213, 173, 250);
+    color: rgb(230, 149, 44);
     margin: 0 20px;
 }
