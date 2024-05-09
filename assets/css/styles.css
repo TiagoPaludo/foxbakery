@@ -77,6 +77,13 @@ body {
 }
 section{
     display: flex;
+    background-color: #d6bfbff7;
+}
+section div{
+    background-color:transparent;
+}
+div h2,p{
+    color: rgb(5, 11, 100);
 }
 section> div.cakes{
     width: 605px;
@@ -87,7 +94,7 @@ div.sweets{
 }
 div{
     display: flex;
-    background:#8801883a;
+    background:#c5d3bff7;
 }
 
 div #wedding-cakes {
@@ -417,6 +424,7 @@ div #history {
     position: relative;
     display: inline-block;
     border: 15px;
+    background-color: #d6bfbff7;
 }
 
 /* Footer */
