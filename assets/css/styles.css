@@ -350,9 +350,9 @@ div .newsletter{
 
 #footer li {
     font-size: 160%;
-    padding: 0.5px;
+    padding: 1%;
     color: rgb(213, 173, 250);
-    margin: 0 2px;
+    margin: -10px 21px;
 }
 }
 
@@ -432,7 +432,7 @@ div #history {
 
 #footer li {
     font-size: 160%;
-    padding: 5%;
+    padding: 1%;
     color: rgb(213, 173, 250);
     margin: 0 20px;
 }
