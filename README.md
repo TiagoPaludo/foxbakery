@@ -6,30 +6,30 @@
 -pictures of the workes/events covered
 -page dedicated about recipes for who sign in
 
-#design
+# design
 - colour scheme
 - the colours used are similar tho the background image, bluish and greenish section.
 
-#tyography
+# tyography
 - the font used is poppings for all web page.
 
-#imagery
+# imagery
 - it was used a background image related to bakery, specialy sweet. tree cupcakes well decorated and pleasant colour.
 
-#wireframes
+# wireframes
 
 
 # features
 - responsive in all devices
 - interactive header
 
-#Technologies Used
+# Technologies Used
 
 langages used
 - HTML5
 - CSS3
 
-#Frameworks, Libraries & Programs Used
+# Frameworks, Libraries & Programs Used
 
 - Hover.css:
 Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
@@ -43,7 +43,7 @@ Git was used for version control by utilizing the Gitpod terminal to commit to G
 GitHub is used to store the projects code after being pushed from Git.
 
 
-#testing
+# testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
@@ -52,8 +52,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 
 
-#Deployment
-#GitHub Pages
+# Deployment
+# GitHub Pages
 The project was deployed to GitHub Pages using the following steps...
 
 Log in to GitHub and locate the GitHub Repository
