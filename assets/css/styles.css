@@ -199,8 +199,6 @@ form > input{
     height: 100%;
     object-fit: cover;
 }
-
-
 #gallery {
     position: static;
     margin-top: 30px;
@@ -278,6 +276,13 @@ form > input{
         margin: 5px;
         padding: 5px;
     }
+    div #history {
+        position: relative;
+        display: inline-block;
+        border: 15px;
+        background-color: #d6bfbff7;
+        min-width: 320px;
+        max-width: 320px;
     /* styles for form newsletter*/
     form{
         font-size: 30px;
