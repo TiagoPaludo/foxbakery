@@ -215,7 +215,7 @@ form > input{
     bottom: 0;
 }
 /*footer color for icons*/
-#footer i{
+footer i{
     color: rgb(7, 3, 7);
 }
 @media screen and (max-width:425px) {
@@ -361,7 +361,7 @@ div #history {
     bottom: 0;
 }
 
-#foot li {
+#footer li {
     font-size: 160%;
     padding: 1%;
     color: rgb(213, 173, 250);
@@ -436,7 +436,7 @@ div #history {
 
 /* Footer */
 
-#footer {
+footer {
     text-align: center;
     padding: 2px 0;
     display: flex;
@@ -446,7 +446,7 @@ div #history {
     bottom: 0;
 }
 
-#footer li {
+footer li {
     font-size: 160%;
     padding: 1%;
     color: rgb(213, 173, 250);
