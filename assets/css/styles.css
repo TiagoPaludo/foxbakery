@@ -228,15 +228,14 @@ form > input{
     }
     /* newsletter for newsletter.index*/
     div.newsletter-signup{
-        width: 700px;
+        max-width: 320px;
         height: 340px;
         flex-direction: column;
-        padding: 20px;
     }
     div#newsletter-signup{
-        width: 660px;
+        max-width: 320px;
         height: 300px;
-        padding: 20px;
+        padding: 7px;
     }
     /*styles of section*/
     section{
@@ -279,7 +278,7 @@ form > input{
 
     /* styles for form newsletter*/
     form{
-        font-size: 30px;
+        font-size: 25px;
     }
     form > input{
         text-align: center;
