@@ -276,13 +276,7 @@ form > input{
         margin: 5px;
         padding: 5px;
     }
-    div #history {
-        position: relative;
-        display: inline-block;
-        border: 15px;
-        background-color: #d6bfbff7;
-        min-width: 320px;
-        max-width: 320px;
+
     /* styles for form newsletter*/
     form{
         font-size: 30px;
@@ -320,6 +314,14 @@ div .newsletter{
     max-width: 425px;
     border-bottom: 107px;
 }
+div #history {
+    max-width: 320px;
+    position: relative;
+    display: inline-block;
+    border: 15px;
+}
+
+    
 
 /*Nav toggle */
 #box:checked~nav {
