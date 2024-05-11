@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+/* Asterisk wildcard selector to override default styles added by the browser */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
 }
-
+/* General styles */
 body {
     margin: 0;
     display: flex;
@@ -16,7 +16,7 @@ body {
     min-height: calc(100vh - 768px - 30px);
     flex-direction: column;
 }
-
+/*background image for all html folders*/
 #background {
     background-image:url(../images/cupcakes.webp);
     height: 100vh;
@@ -28,7 +28,7 @@ body {
     top: 0;
     z-index: -1;
 }
-
+/* Header */
 .header {
     position: fixed;
     top: 0;
@@ -42,25 +42,25 @@ body {
     z-index: 100;
     box-shadow: 0 2px 2px;
 }
-
+/*logo of fox backery left positioned*/
 .logo {
     font-size: 20px;
     color: #fff;
     text-decoration: none;
     font-weight: 700;
 }
-
+/*links for navigate for other html folders */
 .navbar a {
     position: relative;
     font-size: 18px;
     color: #fff;
     font-weight: 500;
     text-decoration: none;
-    margin-left: 40px;
+    margin-left: 20px;
     list-style-type: none;
     margin-bottom: 1em;
 }
-
+/*efects on navbar*/
 .navbar a::before {
     content: '';
     position: absolute;
@@ -75,6 +75,7 @@ body {
 .navbar a:hover:before {
     width: 100%;
 }
+/*section styles*/
 section{
     display: flex;
     background-color: #d6bfbff7;
@@ -96,7 +97,7 @@ div{
     display: flex;
     background:#c5d3bff7;
 }
-
+/* styles for divs inside section*/
 div #wedding-cakes {
     display: inline-block;
     border: 15px;
@@ -165,6 +166,7 @@ div#newsletter-signup{
     height: 300px;
     padding: 20px;
 }
+/* styles of form sigup newsletter*/
 form{
     font-size: 30px;
 }
@@ -204,10 +206,12 @@ form > input{
     margin-top: 30px;
     padding-top: 30px;
 }
+/*footer color for icons*/
 #footer i{
     color: rgb(7, 3, 7);
 }
 @media screen and (max-width:425px) {
+    /*background image for 320px to 425px*/
     #background {
         background-image: url(assets/photos/cupcakes.webp);
         height: 150vh;
@@ -235,6 +239,11 @@ form > input{
         width: 660px;
         height: 300px;
         padding: 20px;
+    }
+    /*styles of section*/
+    section{
+        min-width: 320px;
+        max-width: 320px;
     }
     section > div{
         max-height: 290px;
@@ -269,6 +278,7 @@ form > input{
         margin: 5px;
         padding: 5px;
     }
+    /* styles for form newsletter*/
     form{
         font-size: 30px;
     }
@@ -277,35 +287,6 @@ form > input{
         border-radius: 8px 4px;
         padding: 7px;
         font-size: 20px;
-    }
-    
-    /*header {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        padding: 0 1rem;
-        background: transparent;
-        display: flex;
-        justify-content: space-between;
-        align-items: baseline;
-        z-index: 100;
-        box-shadow: 0 2px 2px;
-    }*/
-    /*.navbar {
-        font-size: 110%;
-        letter-spacing: 4px;
-        list-style-type: none;
-        background-color: transparent;
-        width: 320px;
-    }*/
-    section{
-        min-width: 320px;
-        max-width: 320px;
-    }
-    .nav > li {
-        margin-bottom: 1em;
-        background-color: black;
     }
     /* Navbar styles with dropdown toggle*/
 nav {
@@ -317,6 +298,10 @@ nav {
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
+}
+.nav > li {
+    margin-bottom: 1em;
+    background-color: black;
 }
 .logo {
     font-size: 20px;
@@ -333,7 +318,9 @@ div .newsletter{
 
 /*Nav toggle */
 #box:checked~nav {
-    display: block;
+    display: inline-flex;
+    width: 100%;
+    height: 30px;
 }
 
 #box {
@@ -367,7 +354,7 @@ div .newsletter{
 }
 
 @media screen and (min-width:768px) {
-    
+    /* hidden checkbox*/
     #box {
         display: none;
     }
@@ -375,6 +362,7 @@ div .newsletter{
     .box-label {
         display: none;
     }
+    /*sets of header for biger screens*/
     .header {
         position: fixed;
         top: 0;
