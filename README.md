@@ -68,3 +68,9 @@ Under "Source", click the dropdown called "None" and select "Master Branch".
 The page will automatically refresh.
 Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 
+# credits
+- for nav bar https://www.youtube.com/watch?v=2DVkNvVcQAU
+- codehal
+- for footer reference https://www.youtube.com/watch?v=US_3XvufMLU
+- coding jorney
+- for other features code institute Running project
