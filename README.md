@@ -1,4 +1,5 @@
-![image](https://github.com/TiagoPaludo/foxbakery/assets/80179815/e3b7c878-325d-40fa-a2ea-80232c3723c5)
+![image](https://github.com/TiagoPaludo/foxbakery/assets/80179815/4b362b73-c814-4bf8-b338-aec9819c70ea)
+
 
 
 # foxbakery
