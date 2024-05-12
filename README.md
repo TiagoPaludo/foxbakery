@@ -1,10 +1,13 @@
+![image](https://github.com/TiagoPaludo/foxbakery/assets/80179815/e3b7c878-325d-40fa-a2ea-80232c3723c5)
+
+
 # foxbakery
-##project of bakery web page
+## project of bakery web page
 # owner requests
--create a page that demonstres what fox bakery do.
--description of what events the cakes and sweets can cover
--pictures of the workes/events covered
--page dedicated about recipes for who sign in
+- create a page that demonstres what fox bakery do.
+- description of what events the cakes and sweets can cover
+- pictures of the workes/events covered
+- page dedicated about recipes for who sign in
 
 # design
 - colour scheme
