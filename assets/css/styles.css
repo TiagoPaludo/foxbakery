@@ -269,6 +269,7 @@ footer i{
         min-width: 280px;
         max-width: 315px;
         margin: 5px;
+        height: 120px;
     }
     div #wedding-cakes{
         display: inline-block;
